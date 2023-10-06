@@ -1,0 +1,31 @@
+{% extends 'partials/base.html' %}
+
+{% block title%}login{% endblock %}
+
+{% block content %}
+
+<div  class="container">
+    <div class="row ">
+     <div id="divc"class="col-4 card shadow">
+     
+        
+                
+                    <center>
+                    <h5 style="font-family:verdana">Login</h5>
+                    <hr style="color:black">
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form }}
+                        </center>
+                        <br>
+                        <input class="btn btn-primary btn-block" type="submit" value="Login">
+                    </form>
+                        
+
+                
+            </div>
+        
+        </div>
+</div>
+
+{% endblock %}

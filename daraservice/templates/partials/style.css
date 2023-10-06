@@ -1,0 +1,147 @@
+.custom-input {
+  
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#ram{
+    position:relative;
+    left:30px;
+    top:20px;
+    font-size:40px;
+    font-family:Pacifico;
+    font-weight:30;
+    
+}
+#div2{
+    height:100px;
+    position:relative;
+    top:150px;
+}
+#div20{
+    height:40px;
+  
+    position:relative;
+
+
+   
+
+
+}
+
+#div21{
+    height:44px;
+  
+    position:relative;
+
+
+   
+
+
+}
+#div22{
+    height:44px;
+    background-color:white;
+    border-top:1px solid #478DC0;
+    border-left:1px solid #478DC0;
+    border-right:1px solid #478DC0;
+}
+#div23{
+    height:540px;
+    background-color:#478DC0;
+    width:40px;
+   
+  
+
+}
+#div24{
+    height:540px;
+    background-color:;
+    
+    border-left:1px solid #478DC0;
+    border-right:1px solid #478DC0;
+    border-bottom:1px solid #478DC0;
+   
+}
+#title{
+    font-size:50px;
+    position:relative;
+    left:210px;
+    top:-10px;
+    font-weight:150;
+
+}
+#or{
+    font-size:20px;
+    position:relative;
+    left:350px;
+    top:px;
+    font-weight:100;
+
+}
+#forminput{
+    border:1px solid #478DC0;
+    height:45px;
+    width:400px;
+    position:relative;
+    left:160px;
+    margin:10px;
+    border-radius:2px;
+    shadow:none;
+    font-size:20px;
+    font-weight:70;
+    padding:10px;
+  }
+  #forminput1{
+    border:1px solid #478DC0;
+    height:45px;
+    width:400px;
+    position:relative;
+    left:160px;
+    margin:20px;
+    border-radius:2px;
+    shadow:none;
+    font-size:20px;
+    font-weight:70;
+    padding:10px;
+  }
+#formbtn1{
+    background-color:#478DC0;
+    height:50px;
+    width:400px;
+    position:relative;
+    left:160px;
+    margin:10px;
+    
+  
+    border: none;
+    color: white;
+
+    text-align: center;
+    
+    font-size: 25px;
+    font-family:
+    font-weight:-10;
+}
+#formbtn2{
+    background-color:#478DC0;
+    height:50px;
+    width:400px;
+    position:relative;
+    left:160px;
+    margin:10px;
+    
+    top:-9px;
+    border: none;
+    color: white;
+
+    text-align: center;
+    
+    font-size: 25px;
+    font-family:
+    font-weight:-10;
+}
+
+

@@ -1,0 +1,39 @@
+#div{
+    color:blue;
+    width:300px;
+}
+.custom-input {
+    /* Your custom styles for input fields with the 'custom-input' class */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+{% extends 'partials/base.html' %}
+
+{% block title%}Sign Up{% endblock %}
+
+{% block content %}
+
+<div id="div" class="container">
+    <div class="row ">
+        <div class="col-4 card  shadow" id="divd">
+            
+               
+                    <center>
+                    <h4>SignUpPage</h4>
+                    <hr>
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form }}
+                    </center>
+                        <input class="btn btn-primary btn-block" type="submit" value="Sign Up">
+
+                
+            </div>
+        
+        </div>
+</div>
+
+{% endblock %}
