@@ -1,0 +1,6 @@
+/* App Styles */
+.app__home {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
